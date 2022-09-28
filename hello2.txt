@@ -1,7 +1,17 @@
+import sys
 
 
 def hello():
-      print("Hello, World")
+    if sys.argv[1] == "Mars":
+        hellomars()
+    else:
+        helloworld()
+
+def helloworld():
+    print("Hello, World")
+
+def hellomars():
+    print("Hello, Mars")
 
 if __name__ == '__main__':
-      hello()
+    hello()
