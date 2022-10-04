@@ -17,5 +17,6 @@ def hellomars():
 def hellojupiter():
      print("Hello, Jupiter")
 
+def hello
 if __name__ == '__main__':
     hello()
